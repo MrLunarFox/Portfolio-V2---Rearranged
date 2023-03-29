@@ -65,6 +65,9 @@ body:before {
                 <li class="nav-item">
                   <a class="nav-link" href="index.php?uc=presentation">Présentation</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.php?uc=presentationbts">Présentation BTS SIO</a>
+                </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Projets / Réalisations</a>
                   <div class="dropdown-menu">

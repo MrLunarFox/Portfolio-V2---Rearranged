@@ -1,18 +1,17 @@
-
 <?php 
-  ob_start();
-  session_start();
-
   include "vues/header.php";
-
+  
   $uc = empty($_GET['uc']) ? "accueil" : $_GET['uc'];
 
   switch($uc){
     case 'accueil' :
-      include('vues/accueil.php');
+      include('vues/Accueil.php');
       break;
     case 'presentation' :
       include('vues/presentation.php');
+      break;
+    case 'presentationbts' :
+      include('vues/presentationbts.php');
       break;
     case 'projet_A' :
       include('vues/sous_page/ProjetA.php');
