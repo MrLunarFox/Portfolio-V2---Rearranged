@@ -37,6 +37,7 @@
         text-align: left;
         margin-left: 3%;
         margin-right: 3%;
+        margin-bottom: 5px;
         padding-top: 5px;
         padding-bottom: 5px;
         border-radius: 10px;
@@ -46,6 +47,32 @@
     .option{
         text-align: center;
         color: whitesmoke;
+        padding-bottom: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .option2{
+        text-align: center;
+        color: whitesmoke;
+        padding-bottom: 5px;
+        padding-top: 13px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .optiont{
+        text-align: center;
+        color:cadetblue;
+        padding-bottom: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .option2t{
+        text-align: center;
+        color:cadetblue;
+        padding-bottom: 5px;
+        padding-top: 13px;
+        margin-top: 10px;
+        margin-bottom: 5px;
     }
 </style>
 <article>
@@ -64,8 +91,8 @@
     </div>
     <br>
     <div id="col">
-        <h2 class="option">Option SISR</h2>
-        <p>
+        <p class="option">
+        <h2 class="optiont">Option SISR</h2>
         L’acronyme SISR signifie « Solutions d’infrastructure, systèmes et réseaux ».<br>Voici des précisions sur cette formation et ses débouchés.<br>L’option SISR est destinée aux étudiants qui s’orientent vers les métiers liés à la conception et la maintenance d’infrastructures réseaux.<br>Assurer la sécurité, la maintenance et l’installation des réseaux et des équipements informatiques font partie des principales missions des futurs administrateurs, techniciens ou pilotes d’exploitation.<br>Des cours plus généraux viendront compléter la formation et apporter des compétences plus généralistes, permettant ainsi aux diplômés d’être opérationnels dans n’importe quelle entreprise.<br><br>
 Voici les débouchés avec un BTS SIO SISR:<br><br>
 - Technicien de production<br>
@@ -77,8 +104,8 @@ Voici les débouchés avec un BTS SIO SISR:<br><br>
 - Pilote d’exploitation<br>
 - Informaticien support et déploiement
         </p>
-        <h2 class="option">Option SLAM</h2>
-        <p>
+        <p class="option2">
+        <h2 class="option2t">Option SLAM</h2>
         Le signe SLAM signifie « Solutions Logicielles et Applications Métier ».<br>Voici quelques indications sur cette seconde option du BTS SIO, ainsi des précisions sur cette formation et ses débouchés.<br>L’option SLAM est destinée aux étudiants qui s’orientent vers les métiers liés à la conception et la maintenance de programmes applicatifs.<br>Grâce à des cours spécifiques, les diplômés seront capables de gérer un parc informatique ou d’administrer un réseau au sein d’une entreprise.<br>Ils pourront également gérer l’intégration, la sécurisation et la configuration des serveurs, mais aussi des postes clients et des équipements d’interconnexion.<br><br>
 Voici les débouchés avec un BTS SIO SLAM:<br><br>
 - Développeur d'applications informatiques<br>
