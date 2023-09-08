@@ -20,10 +20,10 @@
       include('vues/sous_page/ProjetB.php');
       break;
     case 'stage_entreprise_A' :
-      include('vues/sous_page/StageN°1.php');
+      include('vues/sous_page/StageN1.php');
       break;
     case 'stage_entreprise_B' :
-      include('vues/sous_page/StageN°2.php');
+      include('vues/sous_page/StageN2.php');
       break;
     case 'veille_tech' :
       include('vues/veille-technologique.php');

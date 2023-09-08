@@ -77,7 +77,7 @@ body:before {
                   </div>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Expérience professionnel</a>
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Expérience professionnelle</a>
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="index.php?uc=stage_entreprise_A">Stage entreprise A</a>
                     <a class="dropdown-item" href="index.php?uc=stage_entreprise_B">Stage entreprise B</a>

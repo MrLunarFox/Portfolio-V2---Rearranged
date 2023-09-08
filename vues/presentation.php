@@ -1,7 +1,23 @@
 <style>
-    .Télécharger{
-        margin-left: 45%;
-        margin-right: 45%;
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    .lien{
+        display: flex;
+        margin: auto;
+        border-radius: 5px;
+        font-size: 30px;
+        width: fit-content;
+        color: white;
+        padding: 15px;
+        background-color: green;
+    }
+    .lien:hover{
+        background-color: greenyellow;
+    }
+    img{
+        margin-left: 15px;
     }
 </style>
 
@@ -10,5 +26,7 @@
     <h1 class="Titrepage">Présentation</h1>
     <br>
     <br>
-    <input class="Télécharger" type="button" value="Consulter mon CV" onclick="window.location='./Fichier/CV - Josua HIS.pdf';">
+    <div class="lien">
+        <a href="../Fichier/CV - Josua HIS.pdf" download="Cv - Josua HIS">Télécharger mon CV</a>
+    </div>
 </article>
