@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Css/bootstrap.css">
     <link rel="icon" type="image/x-icon" href="./Image/portfolio-suitcase_icon-icons.com_52927.png" /><link rel="shortcut icon" type="image/x-icon" href="./Image/portfolio-suitcase_icon-icons.com_52927.png" />
+    <script src="https://kit.fontawesome.com/7ac7855db0.js" crossorigin="anonymous"></script>
     <title>Portfolio - Josua HIS</title>
     <style>
         .Titrepage {
@@ -20,30 +21,30 @@
             text-align: center;
         }
     </style>
-    <style> /*Background floue*/
+        <style> /*Background floue*/
         body {
-position: absolute;
-        top: 0; bottom: 0; left: 0; right: 0;
-        height: 100%;
-    margin:0;
-    padding:0;
-    background-size: 100% ;
-    width:100%;  
-    color:black;
-}
-body:before {
-        content: "";
-        position: fixed;
-        height: 100%; width: 100%;
-        background: url(Image/code-source-de-bureau-et-technologie-contexte-developpeur-ou-programmeur-en-matiere-de-codage-et-de-programmation-le-papier-peint-par-le-langage-informatique-et-le-code-source-com-pf3nra.jpg);
-        background-size: cover;
-        z-index: -1; /* Keep the background behind the content */     
-        -webkit-filter: blur(8px);
-    -webkit-background-size: cover; /* pour Chrome et Safari */
-    -moz-background-size: cover; /* pour Firefox */
-    -o-background-size: cover; /* pour Opera */
-    background-size: cover; /* version standardisée */
-    }
+          position: absolute;
+          top: 0; bottom: 0; left: 0; right: 0;
+          height: 100%;
+          margin:0;
+          padding:0;
+          background-size: 100% ;
+          width:100%;  
+          color:black;
+        }
+        body:before {
+          content: "";
+          position: fixed;
+          height: 100%; width: 100%;
+          background: url(Image/code-source-de-bureau-et-technologie-contexte-developpeur-ou-programmeur-en-matiere-de-codage-et-de-programmation-le-papier-peint-par-le-langage-informatique-et-le-code-source-com-pf3nra.jpg);
+          background-size: cover;
+          z-index: -1; /* Keep the background behind the content */     
+          -webkit-filter: blur(8px);
+          -webkit-background-size: cover; /* pour Chrome et Safari */
+          -moz-background-size: cover; /* pour Firefox */
+          -o-background-size: cover; /* pour Opera */
+          background-size: cover; /* version standardisée */
+      }
     </style>
 </head>
 <body>
@@ -71,17 +72,15 @@ body:before {
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Projets / Réalisations</a>
                   <div class="dropdown-menu">
-                    <a class="dropdown-item" href="index.php?uc=projet_A">Projet A</a>
+                    <a class="dropdown-item" href="index.php?uc=projet_A">Projet CinéChoice</a>
                     <a class="dropdown-item" href="index.php?uc=projet_B">Projet B</a>
-                    <div class="dropdown-divider"></div>
                   </div>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Expérience professionnelle</a>
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Expérience professionnel</a>
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="index.php?uc=stage_entreprise_A">Stage entreprise A</a>
-                    <a class="dropdown-item" href="index.php?uc=stage_entreprise_B">Stage entreprise B</a>
-                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="index.php?uc=stage_entreprise_B">Association Sportive Mauloise</a>
                   </div>
                 </li>
                 <li class="nav-item">
